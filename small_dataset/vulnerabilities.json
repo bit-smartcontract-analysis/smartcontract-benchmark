@@ -1,0 +1,2449 @@
+[
+    {
+        "name": "BitCash.sol",
+        "path": "dataset/TOD/BitCash.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/TOD/buggy_13.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    68
+                ],
+                "category": "TOD"
+            },
+            {
+                "lines": [
+                    88
+                ],
+                "category": "TOD"
+            }
+        ]
+    },
+    {
+        "name": "CareerOnToken.sol",
+        "path": "dataset/TOD/CareerOnToken.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/TOD/buggy_2.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    152
+                ],
+                "category": "TOD"
+            },
+            {
+                "lines": [
+                    172
+                ],
+                "category": "TOD"
+            }
+        ]
+    },
+    {
+        "name": "DocumentSigner.sol",
+        "path": "dataset/TOD/DocumentSigner.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/TOD/buggy_10.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    61
+                ],
+                "category": "TOD"
+            },
+            {
+                "lines": [
+                    158
+                ],
+                "category": "TOD"
+            }
+        ]
+    },
+    {
+        "name": "ERC20.sol",
+        "path": "dataset/TOD/ERC20.sol",
+        "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/transaction_order_dependence/ERC20.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    113
+                ],
+                "category": "TOD"
+            }
+        ]
+    },
+    {
+        "name": "ERC223Token.sol",
+        "path": "dataset/TOD/ERC223Token.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/results/Oyente/analyzed_buggy_contracts/TOD/results/buggy_12.sol_ERC223Token.json",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    371
+                ],
+                "category": "TOD"
+            },
+            {
+                "lines": [
+                    411
+                ],
+                "category": "TOD"
+            }
+        ]
+    },
+    {
+        "name": "FindThisHash.sol",
+        "path": "dataset/TOD/FindThisHash.sol",
+        "source": "https://github.com/sigp/solidity-security-blog",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    17
+                ],
+                "category": "TOD"
+            }
+        ]
+    },
+    {
+        "name": "ForTheBlockchain.sol",
+        "path": "dataset/TOD/ForTheBlockchain.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/TOD/buggy_11.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    204
+                ],
+                "category": "TOD"
+            },
+            {
+                "lines": [
+                    293
+                ],
+                "category": "TOD"
+            }
+        ]
+    },
+    {
+        "name": "HotDollarsToken.sol",
+        "path": "dataset/TOD/HotDollarsToken.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/results/Oyente/analyzed_buggy_contracts/TOD/results/buggy_1.sol_HotDollarsToken.json",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    240
+                ],
+                "category": "TOD"
+            },
+            {
+                "lines": [
+                    259
+                ],
+                "category": "TOD"
+            }
+        ]
+    },
+    {
+        "name": "eth_tx_order_dependence_minimal.sol",
+        "path": "dataset/TOD/eth_tx_order_dependence_minimal.sol",
+        "source": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    23
+                ],
+                "category": "TOD"
+            },
+            {
+                "lines": [
+                    31
+                ],
+                "category": "TOD"
+            }
+        ]
+    },
+    {
+        "name": "odds_and_evens.sol",
+        "path": "dataset/TOD/odds_and_evens.sol",
+        "source": "http://blockchain.unica.it/projects/ethereum-survey/attacks.html#oddsandevens",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    28
+                ],
+                "category": "TOD"
+            }
+        ]
+    },
+    {
+        "name": "BECToken.sol",
+        "path": "dataset/arithmetic/BECToken.sol",
+        "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101#bectokensol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    264
+                ],
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "name": "insecure_transfer.sol",
+        "path": "dataset/arithmetic/insecure_transfer.sol",
+        "source": "https://consensys.github.io/smart-contract-best-practices/known_attacks/#front-running-aka-transaction-ordering-dependence",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    18
+                ],
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "name": "integer_overflow_add.sol",
+        "path": "dataset/arithmetic/integer_overflow_add.sol",
+        "source": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite/blob/master/benchmarks/integer_overflow_add.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    17
+                ],
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "name": "integer_overflow_benign_1.sol",
+        "path": "dataset/arithmetic/integer_overflow_benign_1.sol",
+        "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/integer_overflow_and_underflow/integer_overflow_benign_1.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    17
+                ],
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "name": "integer_overflow_minimal.sol",
+        "path": "dataset/arithmetic/integer_overflow_minimal.sol",
+        "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/integer_overflow_and_underflow/integer_overflow_minimal.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    17
+                ],
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "name": "integer_overflow_mul.sol",
+        "path": "dataset/arithmetic/integer_overflow_mul.sol",
+        "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/integer_overflow_and_underflow/integer_overflow_mul.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    17
+                ],
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "name": "integer_overflow_multitx_multifunc_feasible.sol",
+        "path": "dataset/arithmetic/integer_overflow_multitx_multifunc_feasible.sol",
+        "source": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    25
+                ],
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "name": "integer_overflow_multitx_onefunc_feasible.sol",
+        "path": "dataset/arithmetic/integer_overflow_multitx_onefunc_feasible.sol",
+        "source": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    22
+                ],
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "name": "overflow_single_tx.sol",
+        "path": "dataset/arithmetic/overflow_single_tx.sol",
+        "source": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    18
+                ],
+                "category": "arithmetic"
+            },
+            {
+                "lines": [
+                    24
+                ],
+                "category": "arithmetic"
+            },
+            {
+                "lines": [
+                    30
+                ],
+                "category": "arithmetic"
+            },
+            {
+                "lines": [
+                    36
+                ],
+                "category": "arithmetic"
+            },
+            {
+                "lines": [
+                    42
+                ],
+                "category": "arithmetic"
+            },
+            {
+                "lines": [
+                    48
+                ],
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "name": "tokensalechallenge.sol",
+        "path": "dataset/arithmetic/tokensalechallenge.sol",
+        "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-101 // https://capturetheether.com/challenges/math/token-sale/",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    23
+                ],
+                "category": "arithmetic"
+            },
+            {
+                "lines": [
+                    25
+                ],
+                "category": "arithmetic"
+            },
+            {
+                "lines": [
+                    33
+                ],
+                "category": "arithmetic"
+            }
+        ]
+    },
+    {
+        "name": "blackjack.sol",
+        "path": "dataset/bad_randomness/blackjack.sol",
+        "source": "https://etherscan.io/address/0xa65d59708838581520511d98fb8b5d1f76a96cad#code",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    17
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    19
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    21
+                ],
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "name": "etheraffle.sol",
+        "path": "dataset/bad_randomness/etheraffle.sol",
+        "source": "https://etherscan.io/address/0xcC88937F325d1C6B97da0AFDbb4cA542EFA70870#code",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    49
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    99
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    101
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    103
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    114
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    158
+                ],
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "name": "guess_the_random_number.sol",
+        "path": "dataset/bad_randomness/guess_the_random_number.sol",
+        "source": "https://capturetheether.com/challenges/lotteries/guess-the-random-number/",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    15
+                ],
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "name": "lottery.sol",
+        "path": "dataset/bad_randomness/lottery.sol",
+        "source": "https://etherscan.io/address/0x80ddae5251047d6ceb29765f38fed1c0013004b7#code",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    38
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    42
+                ],
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "name": "lucky_doubler.sol",
+        "path": "dataset/bad_randomness/lucky_doubler.sol",
+        "source": "https://etherscan.io/address/0xF767fCA8e65d03fE16D4e38810f5E5376c3372A8#code",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    127,
+                    128,
+                    129,
+                    130
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    132
+                ],
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "name": "old_blockhash.sol",
+        "path": "dataset/bad_randomness/old_blockhash.sol",
+        "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/weak_randomness/old_blockhash.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    35
+                ],
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "name": "random_number_generator.sol",
+        "path": "dataset/bad_randomness/random_number_generator.sol",
+        "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/weak_randomness/random_number_generator.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    12
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    18
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    20
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    22
+                ],
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "name": "smart_billions.sol",
+        "path": "dataset/bad_randomness/smart_billions.sol",
+        "source": "https://etherscan.io/address/0x5ace17f87c7391e5792a7683069a8025b83bbd85#code",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    523
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    560
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    700
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    702
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    704
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    706
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    708
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    710
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    712
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    714
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    716
+                ],
+                "category": "bad_randomness"
+            },
+            {
+                "lines": [
+                    718
+                ],
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "name": "theRun.sol",
+        "path": "dataset/bad_randomness/theRun.sol",
+        "source": "https://github.com/crytic/not-so-smart-contracts/blob/master/bad_randomness/theRun_source_code/theRun.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    110
+                ],
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "name": "vulnerableBlockHashGame.sol",
+        "path": "dataset/bad_randomness/vulnerableBlockHashGame.sol",
+        "source": "https://github.com/cclabsInc/BlockChainExploitation/blob/master/2020_BlockchainFreeCourse/bad_randomness/vulnerableBlockHashGame.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    32
+                ],
+                "category": "bad_randomness"
+            }
+        ]
+    },
+    {
+        "name": "Axioms.sol",
+        "path": "dataset/gasless_send/Axioms.sol",
+        "source": "Source Code first verified at https://etherscan.io on Friday",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    93
+                ],
+                "category": "gasless_send"
+            }
+        ]
+    },
+    {
+        "name": "CreditDepositBank_Attack.sol",
+        "path": "dataset/gasless_send/CreditDepositBank_Attack.sol",
+        "source": "https://github.com/ntu-SRSLab/vultron/blob/master/benchmark/gaslesssend/CreditDepositBank/",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    64
+                ],
+                "category": "gasless_send"
+            },
+            {
+                "lines": [
+                    71
+                ],
+                "category": "gasless_send"
+            }
+        ]
+    },
+    {
+        "name": "ETHDropOpenAdd.sol",
+        "path": "dataset/gasless_send/ETHDropOpenAdd.sol",
+        "source": "Source Code first verified at https://etherscan.io on Friday",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    48
+                ],
+                "category": "gasless_send"
+            },
+            {
+                "lines": [
+                    55
+                ],
+                "category": "gasless_send"
+            },
+            {
+                "lines": [
+                    62
+                ],
+                "category": "gasless_send"
+            }
+        ]
+    },
+    {
+        "name": "Etheramid_Attack.sol",
+        "path": "dataset/gasless_send/Etheramid_Attack.sol",
+        "source": "https://github.com/ntu-SRSLab/vultron/blob/master/benchmark/gaslesssend/CreditDepositBank/",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    60
+                ],
+                "category": "gasless_send"
+            }
+        ]
+    },
+    {
+        "name": "Ethmoon.sol",
+        "path": "dataset/gasless_send/Ethmoon.sol",
+        "source": "Source Code first verified at https://etherscan.io on Friday",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    61
+                ],
+                "category": "gasless_send"
+            }
+        ]
+    },
+    {
+        "name": "HelpMeSave.sol",
+        "path": "dataset/gasless_send/HelpMeSave.sol",
+        "source": "https://github.com/ntu-SRSLab/vultron/blob/master/benchmark/gaslesssend/CreditDepositBank/",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    30
+                ],
+                "category": "gasless_send"
+            }
+        ]
+    },
+    {
+        "name": "IManagedToken.sol",
+        "path": "dataset/gasless_send/IManagedToken.sol",
+        "source": "Source Code first verified at https://etherscan.io on Friday",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    849
+                ],
+                "category": "gasless_send"
+            }
+        ]
+    },
+    {
+        "name": "MultiTokenNetwork.sol",
+        "path": "dataset/gasless_send/MultiTokenNetwork.sol",
+        "source": "https://capturetheether.com/challenges/lotteries/guess-the-random-number/",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    237
+                ],
+                "category": "gasless_send"
+            }
+        ]
+    },
+    {
+        "name": "Ownable.sol",
+        "path": "dataset/gasless_send/Ownable.sol",
+        "source": "https://github.com/DependableSystemsLab/eTainter/blob/main/datasets/annotated/source/841d45b777e7873d0686d89f919d075b.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    259
+                ],
+                "category": "gasless_send"
+            }
+        ]
+    },
+    {
+        "name": "QuarterMachine.sol",
+        "path": "dataset/gasless_send/QuarterMachine.sol",
+        "source": "https://github.com/DependableSystemsLab/eTainter/blob/main/datasets/annotated/source/346d645ed662f5020259795dcada89cc.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    58
+                ],
+                "category": "gasless_send"
+            }
+        ]
+    },
+    {
+        "name": "etherstore.sol",
+        "path": "dataset/reentrancy/etherstore.sol",
+        "source": "https://github.com/sigp/solidity-security-blog",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    27
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "modifier_reentrancy.sol",
+        "path": "dataset/reentrancy/modifier_reentrancy.sol",
+        "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/reentracy/modifier_reentrancy.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    15
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "reentrance.sol",
+        "path": "dataset/reentrancy/reentrance.sol",
+        "source": "https://ethernaut.zeppelin.solutions/level/0xf70706db003e94cfe4b5e27ffd891d5c81b39488",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    24
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "reentrancy_bonus.sol",
+        "path": "dataset/reentrancy/reentrancy_bonus.sol",
+        "source": "https://consensys.github.io/smart-contract-best-practices/known_attacks/",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    28
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "reentrancy_cross_function.sol",
+        "path": "dataset/reentrancy/reentrancy_cross_function.sol",
+        "source": "https://consensys.github.io/smart-contract-best-practices/known_attacks/",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    24
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "reentrancy_dao.sol",
+        "path": "dataset/reentrancy/reentrancy_dao.sol",
+        "source": "https://github.com/ConsenSys/evm-analyzer-benchmark-suite",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    18
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "reentrancy_insecure.sol",
+        "path": "dataset/reentrancy/reentrancy_insecure.sol",
+        "source": "https://consensys.github.io/smart-contract-best-practices/known_attacks/",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    17
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "reentrancy_simple.sol",
+        "path": "dataset/reentrancy/reentrancy_simple.sol",
+        "source": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/reentrancy/Reentrancy.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    24
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "simple_dao.sol",
+        "path": "dataset/reentrancy/simple_dao.sol",
+        "source": "http://blockchain.unica.it/projects/ethereum-survey/attacks.html#simpledao",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    19
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "spank_chain_payment.sol",
+        "path": "dataset/reentrancy/spank_chain_payment.sol",
+        "source": "https://github.com/trailofbits/not-so-smart-contracts/blob/master/reentrancy/SpankChain_source_code/SpankChain_Payment.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    426
+                ],
+                "category": "reentrancy"
+            },
+            {
+                "lines": [
+                    430
+                ],
+                "category": "reentrancy"
+            }
+        ]
+    },
+    {
+        "name": "CareerOnToken.sol",
+        "path": "dataset/safecontract/CareerOnToken.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/Timestamp-Dependency/buggy_3.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    0
+                ],
+                "category": "safecontract"
+            }
+        ]
+    },
+    {
+        "name": "Clones.sol",
+        "path": "dataset/safecontract/Clones.sol",
+        "source": "OpenZeppelin Contracts (last updated v4.8.0) (proxy/Clones.sol)",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    0
+                ],
+                "category": "safecontract"
+            }
+        ]
+    },
+    {
+        "name": "Ownable.sol",
+        "path": "dataset/safecontract/Ownable.sol",
+        "source": "OpenZeppelin Contracts (last updated v4.7.0) (access/Ownable.sol)",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    0
+                ],
+                "category": "safecontract"
+            }
+        ]
+    },
+    {
+        "name": "Owned.sol",
+        "path": "dataset/safecontract/Owned.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/Re-entrancy/buggy_18.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    0
+                ],
+                "category": "safecontract"
+            }
+        ]
+    },
+    {
+        "name": "Pausable.sol",
+        "path": "dataset/safecontract/Pausable.sol",
+        "source": "OpenZeppelin Contracts (last updated v4.7.0) (security/Pausable.sol)",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    0
+                ],
+                "category": "safecontract"
+            }
+        ]
+    },
+    {
+        "name": "Proxy.sol",
+        "path": "dataset/safecontract/Proxy.sol",
+        "source": "OpenZeppelin Contracts (last updated v4.6.0) (proxy/Proxy.sol)",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    43
+                ],
+                "category": "safecontract"
+            }
+        ]
+    },
+    {
+        "name": "PullPayment.sol",
+        "path": "dataset/safecontract/PullPayment.sol",
+        "source": "OpenZeppelin Contracts (last updated v4.8.0) (security/PullPayment.sol)",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    0
+                ],
+                "category": "safecontract"
+            }
+        ]
+    },
+    {
+        "name": "StableDEX.sol",
+        "path": "dataset/safecontract/StableDEX.sol",
+        "source": "",
+        "vulnerabilities": []
+    },
+    {
+        "name": "Timers.sol",
+        "path": "dataset/safecontract/Timers.sol",
+        "source": "OpenZeppelin Contracts v4.4.1 (utils/Timers.sol)",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    0
+                ],
+                "category": "safecontract"
+            }
+        ]
+    },
+    {
+        "name": "WETH9.sol",
+        "path": "dataset/safecontract/WETH9.sol",
+        "source": "https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2#code",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    0
+                ],
+                "category": "safecontract"
+            }
+        ]
+    },
+    {
+        "name": "AZT.sol",
+        "path": "dataset/time_manipulation/AZT.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/Timestamp-Dependency/buggy_17.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    60
+                ],
+                "category": "time_manipulation"
+            },
+            {
+                "lines": [
+                    76
+                ],
+                "category": "time_manipulation"
+            }
+        ]
+    },
+    {
+        "name": "DocumentSigner.sol",
+        "path": "dataset/time_manipulation/DocumentSigner.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/Timestamp-Dependency/buggy_10.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    18
+                ],
+                "category": "time_manipulation"
+            },
+            {
+                "lines": [
+                    20
+                ],
+                "category": "time_manipulation"
+            }
+        ]
+    },
+    {
+        "name": "HotDollarsToken.sol",
+        "path": "dataset/time_manipulation/HotDollarsToken.sol",
+        "source": "https://etherscan.io/address/0xa11e4ed59dc94e69612f3111942626ed513cb172#code",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    39
+                ],
+                "category": "time_manipulation"
+            },
+            {
+                "lines": [
+                    67
+                ],
+                "category": "time_manipulation"
+            },
+            {
+                "lines": [
+                    123
+                ],
+                "category": "time_manipulation"
+            }
+        ]
+    },
+    {
+        "name": "TAMContract.sol",
+        "path": "dataset/time_manipulation/TAMContract.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/Timestamp-Dependency/buggy_39.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    15
+                ],
+                "category": "time_manipulation"
+            },
+            {
+                "lines": [
+                    23
+                ],
+                "category": "time_manipulation"
+            },
+            {
+                "lines": [
+                    38
+                ],
+                "category": "time_manipulation"
+            },
+            {
+                "lines": [
+                    70
+                ],
+                "category": "time_manipulation"
+            }
+        ]
+    },
+    {
+        "name": "TTC.sol",
+        "path": "dataset/time_manipulation/TTC.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/Timestamp-Dependency/buggy_10.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    31
+                ],
+                "category": "time_manipulation"
+            },
+            {
+                "lines": [
+                    58
+                ],
+                "category": "time_manipulation"
+            }
+        ]
+    },
+    {
+        "name": "ether_lotto.sol",
+        "path": "dataset/time_manipulation/ether_lotto.sol",
+        "source": "https://etherscan.io/address/0xa11e4ed59dc94e69612f3111942626ed513cb172#code",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    43
+                ],
+                "category": "time_manipulation"
+            }
+        ]
+    },
+    {
+        "name": "governmental_survey.sol",
+        "path": "dataset/time_manipulation/governmental_survey.sol",
+        "source": "http://blockchain.unica.it/projects/ethereum-survey/attacks.html#governmental",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    27
+                ],
+                "category": "time_manipulation"
+            }
+        ]
+    },
+    {
+        "name": "lottopollo.sol",
+        "path": "dataset/time_manipulation/lottopollo.sol",
+        "source": "https://github.com/seresistvanandras/EthBench/blob/master/Benchmark/Simple/timestampdependent.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    13
+                ],
+                "category": "time_manipulation"
+            },
+            {
+                "lines": [
+                    27
+                ],
+                "category": "time_manipulation"
+            }
+        ]
+    },
+    {
+        "name": "roulette.sol",
+        "path": "dataset/time_manipulation/roulette.sol",
+        "source": "https://github.com/sigp/solidity-security-blog",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    18
+                ],
+                "category": "time_manipulation"
+            },
+            {
+                "lines": [
+                    20
+                ],
+                "category": "time_manipulation"
+            }
+        ]
+    },
+    {
+        "name": "timed_crowdsale.sol",
+        "path": "dataset/time_manipulation/timed_crowdsale.sol",
+        "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/timestamp_dependence/timed_crowdsale.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    13
+                ],
+                "category": "time_manipulation"
+            }
+        ]
+    },
+    {
+        "name": "AsseteGram.sol",
+        "path": "dataset/tx_origin/AsseteGram.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/tx.origin/buggy_10.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    46
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    51
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    57
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    63
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    69
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    82
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    89
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    95
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    109
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    125
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    144
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    159
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    173
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    181
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    187
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    200
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    206
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    211
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    216
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    229
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    241
+                ],
+                "category": "tx_origin"
+            }
+        ]
+    },
+    {
+        "name": "BitCash.sol",
+        "path": "dataset/tx_origin/BitCash.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/tx.origin/buggy_13.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    18
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    23
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    28
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    35
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    42
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    48
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    56
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    64
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    72
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    94
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    120
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    138
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    158
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    178
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    201
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    221
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    243
+                ],
+                "category": "tx_origin"
+            }
+        ]
+    },
+    {
+        "name": "CareerOnToken.sol",
+        "path": "dataset/tx_origin/CareerOnToken.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/tx.origin/buggy_2.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    13
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    19
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    25
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    32
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    38
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    44
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    50
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    55
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    60
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    66
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    73
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    100
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    126
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    155
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    168
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    179
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    194
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    204
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    216
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    225
+                ],
+                "category": "tx_origin"
+            }
+        ]
+    },
+    {
+        "name": "DocumentSinger.sol",
+        "path": "dataset/tx_origin/DocumentSinger.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/tx.origin/buggy_10.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    13
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    19
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    30
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    36
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    50
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    63
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    72
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    81
+                ],
+                "category": "tx_origin"
+            }
+        ]
+    },
+    {
+        "name": "HotDollarsToken.sol",
+        "path": "dataset/tx_origin/HotDollarsToken.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/tx.origin/buggy_1.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    26
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    37
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    49
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    60
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    70
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    76
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    82
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    92
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    98
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    109
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    114
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    120
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    133
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    146
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    162
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    170
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    180
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    189
+                ],
+                "category": "tx_origin"
+            }
+        ]
+    },
+    {
+        "name": "MD.sol",
+        "path": "dataset/tx_origin/MD.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/tx.origin/buggy_15.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    16
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    21
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    26
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    33
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    40
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    46
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    54
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    62
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    70
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    92
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    118
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    136
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    156
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    176
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    199
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    219
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    241
+                ],
+                "category": "tx_origin"
+            }
+        ]
+    },
+    {
+        "name": "ProofofExistence.sol",
+        "path": "dataset/tx_origin/ProofofExistence.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/tx.origin/buggy_46.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    24
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    52
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    79
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    96
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    111
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    136
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    160
+                ],
+                "category": "tx_origin"
+            }
+        ]
+    },
+    {
+        "name": "TAMC.sol",
+        "path": "dataset/tx_origin/TAMC.sol",
+        "source": "https://github.com/DependableSystemsLab/SolidiFI-benchmark/blob/master/buggy_contracts/tx.origin/buggy_49.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    13
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    20
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    26
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    31
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    39
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    50
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    63
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    68
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    75
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    89
+                ],
+                "category": "tx_origin"
+            },
+            {
+                "lines": [
+                    108
+                ],
+                "category": "tx_origin"
+            }
+        ]
+    },
+    {
+        "name": "mycontract.sol",
+        "path": "dataset/tx_origin/mycontract.sol",
+        "source": "https://consensys.github.io/smart-contract-best-practices/recommendations/#avoid-using-txorigin",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    20
+                ],
+                "category": "tx_origin"
+            }
+        ]
+    },
+    {
+        "name": "phishable.sol",
+        "path": "dataset/tx_origin/phishable.sol",
+        "source": "https://github.com/sigp/solidity-security-blog",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    20
+                ],
+                "category": "tx_origin"
+            }
+        ]
+    },
+    {
+        "name": "0xe894d54dca59cb53fe9cbc5155093605c7068220.sol",
+        "path": "dataset/unchecked_send/0xe894d54dca59cb53fe9cbc5155093605c7068220.sol",
+        "source": "etherscan.io",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    17
+                ],
+                "category": "unchecked_send"
+            }
+        ]
+    },
+    {
+        "name": "0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+        "path": "dataset/unchecked_send/0xec329ffc97d75fe03428ae155fc7793431487f63.sol",
+        "source": "etherscan.io",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    30
+                ],
+                "category": "unchecked_send"
+            }
+        ]
+    },
+    {
+        "name": "0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+        "path": "dataset/unchecked_send/0xf2570186500a46986f3139f65afedc2afe4f445d.sol",
+        "source": "etherscan.io",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    18
+                ],
+                "category": "unchecked_send"
+            }
+        ]
+    },
+    {
+        "name": "0xf29ebe930a539a60279ace72c707cba851a57707.sol",
+        "path": "dataset/unchecked_send/0xf29ebe930a539a60279ace72c707cba851a57707.sol",
+        "source": "etherscan.io",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    16
+                ],
+                "category": "unchecked_send"
+            }
+        ]
+    },
+    {
+        "name": "0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+        "path": "dataset/unchecked_send/0xf70d589d76eebdd7c12cc5eec99f8f6fa4233b9e.sol",
+        "source": "etherscan.io",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    44
+                ],
+                "category": "unchecked_send"
+            }
+        ]
+    },
+    {
+        "name": "etherpot_lotto.sol",
+        "path": "dataset/unchecked_send/etherpot_lotto.sol",
+        "source": "https://github.com/etherpot/contract/blob/master/app/contracts/lotto.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    109
+                ],
+                "category": "unchecked_send"
+            },
+            {
+                "lines": [
+                    141
+                ],
+                "category": "unchecked_send"
+            }
+        ]
+    },
+    {
+        "name": "king_of_the_ether_throne.sol",
+        "path": "dataset/unchecked_send/king_of_the_ether_throne.sol",
+        "source": "https://github.com/kieranelby/KingOfTheEtherThrone/blob/v0.4.0/contracts/KingOfTheEtherThrone.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    110
+                ],
+                "category": "unchecked_send"
+            },
+            {
+                "lines": [
+                    118
+                ],
+                "category": "unchecked_send"
+            },
+            {
+                "lines": [
+                    132
+                ],
+                "category": "unchecked_send"
+            },
+            {
+                "lines": [
+                    174
+                ],
+                "category": "unchecked_send"
+            }
+        ]
+    },
+    {
+        "name": "lotto.sol",
+        "path": "dataset/unchecked_send/lotto.sol",
+        "source": "https://github.com/sigp/solidity-security-blog",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    20
+                ],
+                "category": "unchecked_send"
+            },
+            {
+                "lines": [
+                    27
+                ],
+                "category": "unchecked_send"
+            }
+        ]
+    },
+    {
+        "name": "mishandled.sol",
+        "path": "dataset/unchecked_send/mishandled.sol",
+        "source": "https://github.com/seresistvanandras/EthBench/blob/master/Benchmark/Simple/mishandled.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    14
+                ],
+                "category": "unchecked_send"
+            }
+        ]
+    },
+    {
+        "name": "unchecked_return_value.sol",
+        "path": "dataset/unchecked_send/unchecked_return_value.sol",
+        "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-104#unchecked-return-valuesol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    17
+                ],
+                "category": "unchecked_send"
+            }
+        ]
+    },
+    {
+        "name": "Delegation.sol",
+        "path": "dataset/unsafe_delegatecall/Delegation.sol",
+        "source": "https://blog.solidityscan.com/security-issues-with-delegate-calls-4ae64d775b76",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    35
+                ],
+                "category": "unsafe_delegatecall"
+            }
+        ]
+    },
+    {
+        "name": "FibonacciBalance.sol",
+        "path": "dataset/unsafe_delegatecall/FibonacciBalance.sol",
+        "source": "https://github.com/sigp/solidity-security-blog",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    31
+                ],
+                "category": "unsafe_delegatecall"
+            },
+            {
+                "lines": [
+                    38
+                ],
+                "category": "unsafe_delegatecall"
+            }
+        ]
+    },
+    {
+        "name": "multi_delegatecall.sol",
+        "path": "dataset/unsafe_delegatecall/multi_delegatecall.sol",
+        "source": "https://solidity-by-example.org/app/multi-delegatecall/",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    22
+                ],
+                "category": "unsafe_delegatecall"
+            }
+        ]
+    },
+    {
+        "name": "owner_example.sol",
+        "path": "dataset/unsafe_delegatecall/owner_example.sol",
+        "source": "https://docs.celo.org/blog/tutorials/solidity-vulnerabilities-delegated-call",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    35
+                ],
+                "category": "unsafe_delegatecall"
+            }
+        ]
+    },
+    {
+        "name": "proxy.sol",
+        "path": "dataset/unsafe_delegatecall/proxy.sol",
+        "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-112#proxysol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    19
+                ],
+                "category": "unsafe_delegatecall"
+            }
+        ]
+    },
+    {
+        "name": "proxy_fixed.sol",
+        "path": "dataset/unsafe_delegatecall/proxy_fixed.sol",
+        "source": "https://github.com/christoftorres/ConFuzzius/tree/master/dataset/curated",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    30
+                ],
+                "category": "unsafe_delegatecall"
+            }
+        ]
+    },
+    {
+        "name": "proxy_pattern_false_positive.sol",
+        "path": "dataset/unsafe_delegatecall/proxy_pattern_false_positive.sol",
+        "source": "https://github.com/christoftorres/ConFuzzius/tree/master/dataset/curated",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    14
+                ],
+                "category": "unsafe_delegatecall"
+            }
+        ]
+    },
+    {
+        "name": "storage_abuse.sol",
+        "path": "dataset/unsafe_delegatecall/storage_abuse.sol",
+        "source": "https://www.alchemy.com/overviews/smart-contract-security-best-practices#1-use-delegatecall-carefully",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    38
+                ],
+                "category": "unsafe_delegatecall"
+            }
+        ]
+    },
+    {
+        "name": "storage_example.sol",
+        "path": "dataset/unsafe_delegatecall/storage_example.sol",
+        "source": "https://docs.celo.org/blog/tutorials/solidity-vulnerabilities-delegated-call",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    29
+                ],
+                "category": "unsafe_delegatecall"
+            }
+        ]
+    },
+    {
+        "name": "wallet_delegatecall.sol",
+        "path": "dataset/unsafe_delegatecall/wallet_delegatecall.sol",
+        "source": "https://docs.celo.org/blog/tutorials/solidity-vulnerabilities-delegated-call",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    428
+                ],
+                "category": "unsafe_delegatecall"
+            },
+            {
+                "lines": [
+                    440
+                ],
+                "category": "unsafe_delegatecall"
+            },
+            {
+                "lines": [
+                    445
+                ],
+                "category": "unsafe_delegatecall"
+            }
+        ]
+    },
+    {
+        "name": "BankOfEther.sol",
+        "path": "dataset/unsafe_suicide/BankOfEther.sol",
+        "source": "https://github.com/cclabsInc/BlockChainExploitation/blob/master/2020_BlockchainFreeCourse/Tx.Origin/BankOfEther.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    34
+                ],
+                "category": "unsafe_suicide"
+            }
+        ]
+    },
+    {
+        "name": "ERC20Basic.sol",
+        "path": "dataset/unsafe_suicide/ERC20Basic.sol",
+        "source": "https://github.com/ivicanikolicsg/MAIAN/blob/master/tool/example_contracts/example_suicidal.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    144
+                ],
+                "category": "unsafe_suicide"
+            }
+        ]
+    },
+    {
+        "name": "EthRoulette.sol",
+        "path": "dataset/unsafe_suicide/EthRoulette.sol",
+        "source": "Source Code first verified at https://etherscan.io on Friday",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    59
+                ],
+                "category": "unsafe_suicide"
+            }
+        ]
+    },
+    {
+        "name": "SuicideMultiTxFeasible.sol",
+        "path": "dataset/unsafe_suicide/SuicideMultiTxFeasible.sol",
+        "source": "https://github.com/christoftorres/ConFuzzius/blob/master/dataset/curated/unprotected_selfdestruct",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    22
+                ],
+                "category": "unsafe_suicide"
+            }
+        ]
+    },
+    {
+        "name": "SuicideMultiTxInfeasible.sol",
+        "path": "dataset/unsafe_suicide/SuicideMultiTxInfeasible.sol",
+        "source": "https://github.com/christoftorres/ConFuzzius/blob/master/dataset/curated/unprotected_selfdestruct",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    22
+                ],
+                "category": "unsafe_suicide"
+            }
+        ]
+    },
+    {
+        "name": "bug_1.sol",
+        "path": "dataset/unsafe_suicide/bug_1.sol",
+        "source": "---",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    232
+                ],
+                "category": "unsafe_suicide"
+            }
+        ]
+    },
+    {
+        "name": "bug_2.sol",
+        "path": "dataset/unsafe_suicide/bug_2.sol",
+        "source": "Source Code first verified at https://etherscan.io on Friday",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    335
+                ],
+                "category": "unsafe_suicide"
+            }
+        ]
+    },
+    {
+        "name": "parity_wallet_bug_2.sol",
+        "path": "dataset/unsafe_suicide/parity_wallet_bug_2.sol",
+        "source": "https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-106#walletlibrarysol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    233
+                ],
+                "category": "unsafe_suicide"
+            }
+        ]
+    },
+    {
+        "name": "simple_suicide.sol",
+        "path": "dataset/unsafe_suicide/simple_suicide.sol",
+        "source": "https://github.com/SmartContractSecurity/SWC-registry/blob/master/test_cases/unprotected_critical_functions/simple_suicide.sol",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    12,
+                    13
+                ],
+                "category": "unsafe_suicide"
+            }
+        ]
+    },
+    {
+        "name": "wallet_sucide.sol",
+        "path": "dataset/unsafe_suicide/wallet_sucide.sol",
+        "source": "https://etherscan.io/address/0x3bfc20f0b9afcace800d73d2191166ff16540258#code",
+        "vulnerabilities": [
+            {
+                "lines": [
+                    222
+                ],
+                "category": "unsafe_suicide"
+            }
+        ]
+    }
+]
